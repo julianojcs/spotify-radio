@@ -1,0 +1,33 @@
+{
+  "name": "spotify-radio",
+  "version": "1.0.0",
+  "description": "An application to stream audio based on Spotify, as if it were a radio with the possibility of adding effects in real time, without pausing what your client is listening to, developed 100% javascript.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianojcs/spotify-redio.git"
+  },
+  "keywords": [],
+  "author": "Juliano Costa Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianojcs/spotify-redio/issues"
+  },
+  "homepage": "https://github.com/julianojcs/spotify-redio#readme",
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
